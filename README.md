@@ -32,5 +32,12 @@ Values in SL:
 
 SL percentage: -2%
 
-The bot executes 3 buy trades, the first one with 40% of the bank whenever the RSI on the 1min timeframe goes below 29, always after closure of the previous candle. The second on if the RSI goes below 27.5 with 50% of the remaining bank balance and the last buy would be if RSI value goes below 26. If the RSI value of the previous candle is 29.6 for example and the next one is 25.7, the bot goes full position in that candle because it has triggered all buy parameters. This is the code section for the buy signals:
+The bot executes 3 buy trades, the first one with 40% of the bank whenever the RSI on the 1min timeframe goes below 29, always after closure of the previous candle. The second on if the RSI goes below 27.5 with 50% of the remaining bank balance and the last buy would be if RSI value goes below 26. If the RSI value of the previous candle is 29.6 for example and the next one is 25.7, the bot goes full position in that candle because it has triggered all buy parameters. This is the code section for the buy signals: 
+<br>
+<br>
+BASIC STARTEGY: 
+<br>
+And this is an example of how it would look in the chart: <br>
+![284333791-82731337-9f76-4ea2-9248-cc551235ce89](https://github.com/user-attachments/assets/f9fef5ff-1756-4b54-b9fc-782e88cfb62e)
+
 
